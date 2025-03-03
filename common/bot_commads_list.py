@@ -2,7 +2,7 @@ from aiogram.types import BotCommand
 
 
 private = [
-    BotCommand(command='menu',description='Просто меню'),
-    BotCommand(command='about',description='Бот репетитора Камилы Хакимовой'),
-    BotCommand(command='start', description='запуск бота')
+    BotCommand(command='start',description='-'),
+    BotCommand(command='about',description='О Камиле Хакимовой'),
+    BotCommand(command='payment', description='узнать об оплате')
 ]
